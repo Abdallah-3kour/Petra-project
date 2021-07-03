@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #432e2e;
+  min-height: 100vh;
+}
+
+.logo {
+  color: #d99879;
+  font-size: 40px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 30px 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-item {
+  font-size: 20px;
+  color: white;
+  font-weight: lighter;
+}
+
+.list-item:hover {
+  color: #d99879;
+}
+
+.petra-img {
+  margin: 25px 100px;
+  padding: 80px;
+  width: 80%;
+}
+
+.wadirum-img {
+  margin: 25px 100px;
+  padding: 80px;
+  width: 80%;
+}
+
+.about {
+  padding: 40px;
+}
+
+h3 {
+  color: #ae886c;
+  font-size: 30px;
+  padding: 20px;
+  margin: 15px;
+}
+
+p {
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  word-spacing: 3px;
+}
+
+.footer {
+  color: white;
+  font-size: 18px;
+  padding: 50px 550px;
+}
+
+.name {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+/* petra */
+h4 {
+  color: #ae886c;
+  font-size: 20px;
+  padding: 20px;
+  margin: 15px;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  margin-bottom: 50px;
+}
+
+img.top {
+  position: absolute;
+  top: 115px;
+  left: 0;
+}
+
+figcaption {
+  border: 5px solid #ffffff;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 1;
+  padding: 0.25rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  mix-blend-mode: screen;
+}
+
+strong {
+  display: block;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: #432e2e;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 50px 600px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button a {
+  color: #4d3d3b;
+}
+
+.button:hover {
+  background-color: #432e2e;
+  color: white;
+}
+
+.button a:hover {
+  color: white;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 20px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* moreinfo */
+h5 {
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 20px;
+  margin: 15px;
+}
+
+.title a {
+  color: white;
+  font-size: 40px;
+  padding: 40px;
+  margin: 50px 600px;
+}
+
+.title a:hover {
+  cursor: pointer;
+  color: #ae886c;
+}
+
+/* rum */
+
+.rum-style {
+  font-weight: bold;
+  color: rgb(129, 92, 92);
+}
+
+.rump1 {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.rum2 {
+  margin-right: 150px;
+  width: 500px;
+  height: 300px;
+}
+
+.rum3 {
+  margin-left: 400px;
+  width: 750px;
+  height: 600px;
+}
+
+/* dicover */
+
+h1 a {
+  padding: 20px;
+  margin: 20px 650px;
+  color: white;
+}
+
+h1 a:hover {
+  color: #ae886c;
+  cursor: pointer;
+}
+
+.disimages {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.disimages2 {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.disimg {
+  width: 25%;
+  margin: 25px;
+  padding: 25px;
+}

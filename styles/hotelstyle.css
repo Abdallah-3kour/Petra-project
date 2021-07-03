@@ -1,0 +1,173 @@
+button {
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #432e2e;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  line-height: 1.4;
+}
+
+.logo {
+  color: #d99879;
+  font-size: 40px;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 30px 60px 30px 60px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-item {
+  font-size: 20px;
+  color: white;
+  font-weight: lighter;
+}
+.list-item:hover {
+  color: #d99879;
+}
+.main-container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px 300px;
+  padding: 20px 30px;
+}
+
+.main-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px 300px;
+  padding: 20px 30px;
+}
+
+.container1 {
+  background: url("/images/hotel1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  height: 450px;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+.container2 {
+  background: url("/images/hotel4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  height: 450px;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+.container3 {
+  background: url("/images/hotel3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  height: 450px;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+.container4 {
+  background: url("/images/hotel2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  height: 450px;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+span {
+  margin-right: 20px;
+}
+i {
+  margin-right: 10px;
+}
+
+.container__profile {
+  background-color: #e4f2fd;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  bottom: 0;
+}
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-position: center;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+h1 a {
+  padding: 20px;
+  margin: 20px 650px;
+  color: white;
+}
+
+h1 a:hover {
+  color: #ae886c;
+  cursor: pointer;
+}
+
+h2 {
+  color: #334454;
+  font-size: 1.2rem;
+}
+p {
+  color: #a1b2bc;
+  font-size: 0.8rem;
+}
+
+.container__profile__text {
+  padding: 25px;
+}
+
+.chack {
+  border: none;
+  background: cadetblue;
+  padding: 5px 15px;
+  margin-left: 45px;
+  margin-top: 45px;
+}
+
+.chack a {
+  color: white;
+}
+
+.footer {
+  color: white;
+  font-size: 18px;
+  padding: 50px 550px;
+}
+
+.name {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-style: italic;
+}
